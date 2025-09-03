@@ -9,12 +9,11 @@ It contains the following sections:
 
 ## 🖼️ Screenshot  
 
-![Homepage Screenshot](screenshot1.png)  
+![Homepage Screenshot](code/1.png)  
 
  
-![Projects Screenshot](screenshot2.png) 
+![Projects Screenshot](code/2.png) 
 
-*(Add a screenshot of your website and save it as `screenshot.png` in the project folder so it appears here.)*  
 
 ## 🚀 Features  
 - Responsive design  
