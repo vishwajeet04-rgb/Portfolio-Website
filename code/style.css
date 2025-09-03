@@ -1,0 +1,108 @@
+:root {
+  --main-bg: #2d3e50;
+  --accent: #0da3bb;
+  --accent2: #16a087;
+  --work-bg: #7e8c8d;
+  --progress-graphic: #35485c;
+  --progress-web: #0da3bb;
+  --progress-social: #16a087;
+  --progress-bar: #737e80;
+  --contact-bg: #17a086;
+  --white: #fff;
+}
+
+body {
+  color: var(--white);
+  background-color: var(--main-bg);
+}
+
+.header {
+  background-color: var(--main-bg);
+}
+
+.navbar-light .navbar-brand {
+  color: var(--accent);
+}
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-brand:focus {
+  color: var(--accent);
+}
+.navbar-light .navbar-nav .nav-link {
+  color: var(--white);
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+  color: var(--accent);
+}
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+  color: var(--accent);
+}
+.navbar-light .navbar-toggler {
+  color: var(--accent);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.about_me {
+  background-color: var(--accent);
+}
+
+.pro-img {
+  border: 8px solid var(--main-bg);
+}
+
+.work-exp {
+  background-color: var(--work-bg);
+}
+
+.pro-grap {
+  background-color: var(--progress-graphic);
+  border-radius: 0;
+}
+.pro-web {
+  background-color: var(--progress-web);
+  border-radius: 0;
+}
+.pro-social {
+  background-color: var(--progress-social);
+  border-radius: 0;
+}
+.pro-bar {
+  background-color: var(--progress-bar);
+  border-radius: 0;
+}
+
+.contact {
+  background-color: var(--contact-bg);
+}
+
+.icons {
+  background-color: var(--main-bg);
+  padding: 10px;
+  color: var(--white);
+  transition: background 0.2s, color 0.2s;
+}
+.icons:hover,
+.icons:focus {
+  background-color: var(--accent);
+  color: var(--main-bg);
+}
+
+.submit {
+  background-color: var(--main-bg);
+  color: var(--white);
+  border: none;
+  transition: background 0.2s, color 0.2s;
+}
+.submit:hover,
+.submit:focus {
+  background-color: var(--accent);
+  color: var(--main-bg);
+}
+
+.footer {
+  background-color: var(--main-bg);
+}
+.footer a i:hover {
+  color: var(--accent);
+}
